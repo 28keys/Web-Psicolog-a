@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Lokeya;
+    src: url(Lokeya\ Alternate.otf);
+}
+
+body{
+    background-color: rgb(172, 176, 242);
+}
+.tabla1 td{
+    border-width: 5px;
+    border-color: rgb(117, 155, 227);
+    border-style: solid;
+    width: 450px;
+    height: 100px;
+    background-color: rgb(139, 166, 246);
+    text-align: center;
+    vertical-align: middle;
+}
+.tabla1{
+    margin: auto;
+}
+input[type=text],input[type=password]{
+    position: sticky;
+    float: none;
+    width: 70%;
+    height: 50%;
+    border-radius: 0%;
+}
+h2{
+    font-family: Lokeya;
+    color: rgb(138, 135, 236);
+    border-color: black;
+    border-radius: 100%;
+}
+form {
+    width: 40%; 
+   height: 50px;
+    margin: 20px auto;
+    
+    padding: 10px;
+    border-radius: 5px;
+}
+select {
+    width: 50%;
+    height: 40px;
+
+}
+fieldset{
+    padding: 10px;
+    margin-bottom: 200px;
+    background-color: rgb(164, 209, 246);
+    border-color: hsl(240, 94%, 81%);
+    
+}
