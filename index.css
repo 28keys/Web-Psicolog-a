@@ -1,15 +1,21 @@
+body{
+ background-color: rgba(1000 , 20, 3678 , 0.2);
+ 
+}
+@media only screen and (orientation: landscape) {
+    body{
+        background-color: lightblue;
+    }
+
+}
+    
+
 @font-face {
     font-family: Lokeya;
     src: url(Lokeya\ Alternate.otf);
 }
 
-body{
-    background-image: url(paisaje1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 .tabla1 td{
     border-width: 5px;
     border-color: rgb(117, 155, 227);
@@ -37,7 +43,6 @@ h2{
     border-radius: 100%;
 }
 form {
-
     width: 40%; 
    height: auto;
     margin: 20px auto;
@@ -68,7 +73,6 @@ legend{
     background-color: rgb(190, 171, 244);
     border-width: 4px;
     border-style: inset;
-
 }
 .HorariosQ{
     padding: 10px;
